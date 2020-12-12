@@ -1,0 +1,47 @@
+-> /*		*/
+git config --global user.name rehandbit
+git config --global user.email rehan.farazmdp@gmail.com
+git init
+git status
+git add index.html
+git add -A /* add all file folder evrything include ur brain */
+git commit /*	used to enter linux command for commiting	*/
+/* shortcut to commit */
+git commit -m " message "
+
+
+git commit -f /*	used to recover last edited or commited file */
+
+git diff /* wht changes have u done so far */
+if staged and working area is same then nothing will show
+
+git diff --staged 
+
+git rm --cached (filename ) /*  used to remove file */
+
+git status -s /* used to check modified file wht modification done */
+
+git commit -a /* used to commit everythin */
+
+date = 12dec 2020
+-> git config --global user.name
+-> git config --global user.email
+-> git init
+-> git status
+-> git add -A /added all file /
+-> git commit -m initial
+
+-> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+-> git branch -M master
+-> git remote add origin https://github.com/rehandbit/20century.git
+-> git push -u origin master
